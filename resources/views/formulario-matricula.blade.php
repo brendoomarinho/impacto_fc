@@ -7,7 +7,7 @@
 
 <h1>Cadastro de Aluno</h1>
 
-<form action="/processar_cadastro" method="post">
+<form action="{{ route('matricula.store') }}" method="post">
     <label for="nome_aluno">Nome do Aluno:</label>
     <input type="text" id="nome_aluno" name="nome_aluno" required><br><br>
 
